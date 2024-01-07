@@ -151,63 +151,63 @@ ul {
   margin-bottom: 30px;
 }
 
-.card_product {
-  flex-grow: 1;
-  flex-basis: 200;
-  width: 285px;
-  height: 440px;
-  background-color: #f4f5f7;
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  position: relative;
-}
+  .card_product {
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 285px;
+    height: 440px;
+    background-color: #f4f5f7;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    position: relative;
+  }
 
-.card_product::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.196);
-  z-index: 2;
-  transition: 0.5s all;
-  opacity: 0;
-}
+  .card_product::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.196);
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+  }
 
-.card_product:hover::before {
-  opacity: 1;
-}
+  .card_product:hover::before{
+    opacity: 1;
+  }
 
-.card_product h4 {
-  font-size: 24px;
-  line-height: 28.8px;
-  font-weight: 600;
-  color: #3a3a3a;
-  margin-bottom: 5px;
-  margin-left: 10px;
-  margin-top: 10px;
-  text-transform: capitalize;
-}
+  .card_product h4 {
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 600;
+    color: #3a3a3a;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-transform: capitalize;
+  }
 
-.card_product .information {
-  color: #898989;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  margin-left: 10px;
-  text-transform: capitalize;
-}
+  .card_product .information {
+    color: #898989;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-left: 10px;
+    text-transform: capitalize;
+  }
 
-.card_product .price {
-  color: #3a3a3a;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 600;
-  margin-top: 15px;
-  margin-left: 130px;
-}
+  .card_product .price {
+    color: #3a3a3a;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 130px;
+  }
 
 .product__btn {
   color: #b88e2f;
