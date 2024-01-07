@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+a,
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+}
+
+.logo {
+  position: absolute;
+  left: 50px;
+}
+
+.sidebar__menu--center {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.sidebar__menu--icon{
+  display: flex;
+  width: 15%;
+  position: absolute;
+  justify-content: space-between;
+  right: 70px;
+  font-size: 25px;
+}
+
+
+.wrapper__background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.infor{
+    box-sizing: border-box;
+    background-color: #FFF3E3;
+    width: 30%;
+    height: 440px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20%;
+    top: 300px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.infor span{
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #333333 ;
+    margin-bottom: 30px;
+}
+
+.infor h2{
+    font-size: 45px;
+    line-height: 65px;
+    font-weight: 700;
+    color: #B88E2F;
+}
+
+.infor p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+.wrapper__btn{
+    background-color: #B88E2F;
+    color: #ffffff;
+    Padding :20px 55px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* main */
+
+.Browse{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.Browse h2{
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    margin-left: 37%;
+}
+
+.Browse p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 27%;
+    margin-bottom: 50px;
+}
+
+.Browse__img{
+    display: flex;
+    gap: 20px;
+    margin-left: 12px;
+}
+
+.img p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-top: 18px;
+    margin-left: 132px;
+}
+.product{
+    border: 5px solid black;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.product h2{
+    margin-left: 40%;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.card_product{
+    width: 285px;
+    height: 440px;
+    background-color: #F4F5F7;;
+}
+

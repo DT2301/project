@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+a,
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.sidebar__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  border: 3px solid black;
+}
+
+.logo {
+  position: absolute;
+  left: 50px;
+}
+
+.menu:not(:first-child) {
+  margin-left: 20px;
+}
+
+.logo {
+  position: absolute;
+  left: 50px;
+}
+
+.menu--home,
+.menu--shop,
+.menu--about,
+.menu--contact {
+  position: absolute;
+  right: 30%;
+  /* left: 30%; */
+}
+
+.menu--home{
+    padding-left: 100px;
+}
+
+.menu--shop

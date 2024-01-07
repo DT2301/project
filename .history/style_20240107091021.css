@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+
+
+a,ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 1440px;
+    height: 100px;
+    border: 3px solid black;
+}
+
+.logo{
+  position: absolute;
+  left: 50px;
+}
+
+.menu:not(:first-child){
+    margin-left: 50px;
+}
+
+.menu:nth-child(5):nth-child(8){
+    position: absolute;
+    right: auto;
+}

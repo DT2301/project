@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+
+
+a,ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    border: 3px solid black;
+}
+
+.logo{
+  position: absolute;
+  left: 50px;
+}
+
+.menu:not(:first-child){
+    margin-left: 50px;
+}
+
+
+.menu:nth-child(n+6):nth-child(-n+9){
+    position: absolute; 
+    right: 20px;
+    
+} 
