@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+a,
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+}
+
+.logo {
+  position: absolute;
+  left: 50px;
+}
+
+.sidebar__menu--center {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.sidebar__menu--icon {
+  display: flex;
+  width: 15%;
+  position: absolute;
+  justify-content: space-between;
+  right: 70px;
+  font-size: 25px;
+}
+
+.background_cart {
+  background-image: url(./image/background_cart.png);
+  width: 100%;
+  height: 18rem;
+  background-size: cover;
+}
+
+.cart_infor img {
+  width: 77px;
+  height: 77px;
+}
+
+.cart_infor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.cart_infor h3 {
+  margin-top: -20px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  text-align: left;
+}
+
+.cart_infor div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cart_infor ion-icon {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.cart_infor span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.cart_infor span:last-child {
+  font-weight: 500;
+}
+
+.billingdetail {
+  display: flex;
+  flex-direction: column;
+  width: 610px;
+  margin-left: 70px;
+}
+
+.billingdetail h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.billingdetail label {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+
+.billingdetail .input_name {
+  display: flex;
+  flex-direction: row;
+}
+
+.billingdetail .input_name div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.billingdetail .input_name div > input {
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin-top: 15px;
+}
+
+.billingdetail .input:not(:first-child) > input {
+  width: 250px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+}
+
+.billingdetail > .input {
+  margin-bottom: 30px;
+}
+
+.billingdetail .input:last-child > input {
+  margin-top: 20px;
+}
+
+.billingdetail input {
+  padding-left: 10px;
+}
+
+.checkout {
+  border: 1px solid black;
+
+  width: 500px;
+  height: 600px;
+}
+
+.checkout .placeorder {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkout .placeorder div {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout .placeorder .product_checkout {
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+.checkout .placeorder .product_checkout > span:nth-child(2) {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #9f9f9f;
+}
+
+.checkout .placeorder span {
+  margin-top: 10px;
+}
+
+.checkout .placeorder .subtotal_checkout:not(h3) {
+  text-align: right;
+}
+
+.checkout .placeorder .subtotal_checkout #total {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: right;
+  color: #b88e2f;
+}
+
+.placeorder {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.money_bank {
+  width: 100%;
+  border-top: 1px solid rgb(171, 169, 169);
+  display: flex;
+  flex-direction: column;
+}
+
+.money_bank span:first-child > p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: justified;
+  color: #9f9f9f;
+  margin-top: 10px;
+}
+
+.checkout p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justified;
+}
+
+.checkout .money_bank span,
+.checkout p {
+  margin-bottom: 15px;
+}
+
+.checkout .money_btn {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  border-radius: 15px;
+  padding: 10px 50px;
+  background-color: white;
+  transition: all 0.5s ease;
+margin-left: 60px;
+}
+
+.checkout .money_btn:hover{
+  transform: translateY(-10px);
+}
