@@ -218,7 +218,7 @@ section {
   border-top: 1px solid rgb(171, 169, 169);
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  margin-top: 10px;
 }
 
 .money_bank span:first-child > p {
@@ -255,156 +255,11 @@ section {
   padding: 10px 50px;
   background-color: white;
   transition: all 0.5s ease;
-  margin-left: 130px;
+margin-left: 130px;
 }
 
-.checkout .money_btn:hover {
+.checkout .money_btn:hover{
   transform: translateY(-10px);
 }
 
-.infor_contact {
-  background-color: #f9f1e7;
-  margin-top: 60px;
-  width: 100%;
-  height: 270px;
-}
 
-.list_contact {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.list_contact span {
-  font-size: 60px;
-  margin-top: 10px;
-  margin-right: 40px;
-}
-
-.list_contact h5 {
-  font-size: 25px;
-  font-weight: 600;
-  line-height: 38px;
-  text-align: left;
-}
-
-.list_contact p {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 30px;
-  text-align: left;
-  color: #898989;
-}
-
-.list_contact li {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  margin-top: 100px;
-}
-
-.about {
-  border-top: 1px solid grey;
-  display: flex;
-}
-
-.about_infor1 {
-  margin-top: 60px;
-  margin-left: 90px;
-  margin-right: 120px;
-}
-.about_infor1 h3 {
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: 700;
-  margin-bottom: 55px;
-}
-
-.about_infor1 p {
-  color: #9f9f9f;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.about_infor2 {
-  display: flex;
-  margin-top: 60px;
-}
-
-.about_infor2 h5 {
-  color: #9f9f9f;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  margin-bottom: 60px;
-}
-
-.menu_link {
-  margin-bottom: 60px;
-  margin-right: 120px;
-  color: #000000;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-}
-
-.menu_help {
-  margin-bottom: 60px;
-  margin-right: 120px;
-  color: #000000;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-}
-
-.newsletter input {
-  color: #9f9f9f;
-  border: none;
-  border-bottom: 1px solid black;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 21px;
-  margin-right: 20px;
-}
-
-.newsletter input:focus {
-  outline: none;
-  border-bottom: 1px solid black;
-}
-
-.newsletter .btn {
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 500;
-  color: #000000;
-  border: none;
-  background-color: white;
-  border-bottom: 1px solid black;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.newsletter .btn:hover {
-  background-color: grey;
-  color: white;
-  border-radius: 2px;
-  transform: translateY(-5px);
-}
-
-.newsletter .btn:focus {
-  transform: scale(0.9);
-}
-
-h6 {
-  width: 80%;
-  border-top: 1px solid grey;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  margin-left: 90px;
-}
